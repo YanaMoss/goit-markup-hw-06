@@ -826,6 +826,7 @@ img {
 }
 
 .name-area {
+  display: block;
   margin-bottom: 4px;
 }
 

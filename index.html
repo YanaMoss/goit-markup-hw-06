@@ -565,7 +565,7 @@
           <form name="contact-form" class="contact-form">
             <label for="name" class="name-area">Имя</label>
             <div class="area">
-              <input type="name" name="username" id="name" class="input-area" />
+              <input type="text" name="username" id="name" class="input-area" />
               <svg class="icon-form" width="12" height="12">
                 <use href="./images/decorative/sprite.svg#icon-username"></use>
               </svg>
@@ -573,8 +573,8 @@
             <label for="phone" class="name-area">Телефон</label>
             <div class="area">
               <input
-                type="phone"
-                phone="user-phone"
+                type="tel"
+                name="user-phone"
                 id="phone"
                 class="input-area"
               />
@@ -586,13 +586,18 @@
             </div>
             <label for="email" class="name-area">Почта</label>
             <div class="area">
-              <input type="email" name="email" class="input-area" />
+              <input
+                type="email"
+                name="user-email"
+                id="email"
+                class="input-area"
+              />
               <svg class="icon-form" width="15" height="12">
                 <use href="./images/decorative/sprite.svg#icon-email"></use>
               </svg>
             </div>
             <label class="name-area">
-              <p class="name-area">Комментарий</p>
+              <span class="name-area">Комментарий</span>
               <textarea
                 name="comment"
                 rows="8"
