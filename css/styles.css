@@ -11,24 +11,27 @@
   --icon-color: #afb1b8;
   --backdrop-color: rgba(0, 0, 0, 0.2);
   --backdrop-accent: rgba(33, 150, 243, 0.9);
-  --accent-color-active: #188ce8;
+  --accent-color-active: rgba(24, 140, 232, 1);
   --white-color-text: rgba(255, 255, 255, 0.6);
 }
+
 html {
   box-sizing: border-box;
 }
+
 *,
 *::before,
 *::after {
   box-sizing: inherit;
 }
+
 * {
   margin: 0;
   padding: 0;
 }
 
 body {
-  background-color: var(--white-color--);
+  background-color: tomato;
   color: var(--primary-text-color--);
   font-family: "Roboto", sans-serif;
 }
@@ -87,7 +90,7 @@ img {
   align-items: center;
 }
 
-.line {
+.heder__line {
   border-bottom: 1px solid #ececec;
 }
 
@@ -106,6 +109,7 @@ img {
 .logo-part {
   color: var(--accent-color--);
 }
+
 .nav {
   align-items: center;
 }
@@ -238,7 +242,6 @@ img {
 
 .footer-title {
   padding-bottom: 20px;
-  font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -301,7 +304,6 @@ img {
   box-sizing: border-box;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
-  font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -311,7 +313,6 @@ img {
 }
 
 .sign-mail::placeholder {
-  font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -484,7 +485,6 @@ img {
 .product-item-text {
   padding-top: 27px;
   padding-bottom: 27px;
-  font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -573,7 +573,6 @@ img {
 
 .customers-title {
   margin-bottom: 50px;
-  font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
@@ -697,7 +696,6 @@ img {
 
 .work-text {
   padding: 63px 24px 63px 24px;
-  font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -796,7 +794,6 @@ img {
 
 .title-form {
   margin-bottom: 12px;
-  font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
@@ -809,7 +806,6 @@ img {
 .contact-form {
   display: flex;
   flex-direction: column;
-  font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
@@ -879,7 +875,6 @@ img {
 }
 
 .comment::placeholder {
-  font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
@@ -894,7 +889,6 @@ img {
   min-height: auto;
   justify-content: center;
   align-items: center;
-  font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
